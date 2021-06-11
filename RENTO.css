@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 70%;
+    height: 60px;
+    background: white;
+    display: flex;
+    margin-left: 5.2cm;
+}
+header img{
+    width: 2.5cm;
+    height: 0.9cm;
+    margin-top: 0.3cm;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    margin-left: 10cm;
+
+}
+header ul li{
+    margin-left: 1cm;
+}
+header ul li a.bg{
+    width: 5cm;
+    height: 1cm ;
+    padding:5px 10px;
+    background: yellow;
+    border-radius: 20px;
+}
+
+
+.wrapper{
+    width: 80%;
+    height: 500px;
+    margin-left: 3.5cm;
+    padding: 0 4cm;
+    color: white;
+    background-image: url(banner.jpg);
+    background-size: contain;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.wrapper h1,p, .orange{
+    margin-bottom: 1cm;
+}
+.wrapper h1{
+    font-size: 50px;
+}
+.wrapper .orange{
+    color: yellow;
+}
+.wrapper button{
+    width: 3cm;
+    height: 1cm ;
+}
+.wrapper button:hover{
+    width: 3cm;
+    height: 1cm ;
+    background: yellow;
+    border-radius: 20px;
+}
+
+
+
+.wrapper-2{
+    width: 80%;
+    height: 500px;
+    background: rgb(251, 251, 251);
+    margin-left:3.5cm ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper-2 img{
+    width: 8cm;
+    height: 5cm;
+
+}
+.wrapper-2 .yellow{
+    width: 80%;
+    height: 1.5cm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: yellow;
+    margin-top: 0.5cm;
+}
+.wrapper-2 h1{
+    margin-bottom: 0.5cm;
+}
+
+.wrapper-3{
+    width: 80%;
+    height: 439px;
+    background: rgb(255, 255, 255);
+    background-image: url(bg.jpg);
+    background-size: contain;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    margin-left:3.5cm ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.wrapper-3 .choose{
+    width: 8cm;
+    height: 9cm;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    margin-right: 4.5cm;
+}
+
+.wrapper-3 .choose h2,select,input{
+    margin-bottom: 1cm;
+}
+select,input{
+    width: 6cm;
+}
+.wrapper-3 button{
+    width: 3cm;
+    height: 0.7cm;
+    background: black;
+    color: white;
+}
+.wrapper-3 button:hover{
+    width: 3cm;
+    height: 0.7cm ;
+    background: yellow;
+    border-radius: 20px;
+    color: black;
+}
+.wrapper-4{
+    width: 60%;
+    height: 500px;
+    margin-left: 7cm;
+    text-align: center;
+    margin-top: 2cm;
+    margin-bottom: 1.5cm;
+}
+.wrapper-4 .h1{
+    width: 1.5cm;
+    height: 1.5cm;
+    padding-top: 7px;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    margin-left: 10cm;
+    margin-bottom: 0.7cm;
+}
+
